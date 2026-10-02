@@ -40,7 +40,6 @@ Vector2 c
 Vector2 d
 ```
 
-These classes are intentionally simple and primarily represent the connectivity of the generated geometry.
 
 All triangles and faces use the same winding order (clockwise), so that meshes built from the grid have consistent normals.
 
@@ -161,7 +160,7 @@ The relaxation should only affect the interior points of the grid and must not m
 
 The goal is to relax the interior vertices while keeping the outer hexagonal boundary fixed, so that the overall hexagonal shape is preserved.
 
-![Visualization: Subdivision and Relaxation](images/SR.gif)
+![Visualization: Subdivision and Relaxation](images/SD1.gif)
 
 ## End
 
