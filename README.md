@@ -248,6 +248,8 @@ X = 90°
 
 The camera should now be looking directly down at the generated grid.
 
+### 6. Play on unity
+Now you can paint tiles on the grid, in the `ManualGridBuilding` choose the material you want to place and just click.
 ### Result
 
 ![Vizualization: Result](/images/example.png)
